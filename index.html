@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Task</title>
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <h1>School ID Registration Form</h1>
+            <form onsubmit="alert('Submission Successful!')">
+                <fieldset>
+                    <legend>Fill in your Biodata</legend>
+                    <br>
+                    <label for="fullname">Fullname</label>
+                    <input type="text" name="fullname" id="fullname" required placeholder="Enter your name">
+                    <br>
+                    <br><label for="email">Email address</label>
+                    <input type="email" name="email" id="email" required placeholder="example@xyz.com">
+                    <br>
+                    <br><label for="phone">Phone number</label>
+                    <input type="tel" name="phone" id="phone" required placeholder="+234-000-0000-000">
+                    <br>
+                    <br><label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male" required>
+                    <br>
+                    <br><label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female" required>
+                    <br>
+                    <br><label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="Password">
+                    <br>
+                    <br><button type="submit">Submit Form</button>
+                </fieldset>
+            </form>
+        </body>
+        
+    </head>
+</html>
