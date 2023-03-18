@@ -1,6 +1,27 @@
 body{
     background-color: grey;
+    background-image: url(https://images.unsplash.com/photo-1618397746666-63405ce5d015?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
 }
 h1{
     color: aquamarine;
+    text-align: center;
 }
+
+button{
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    padding: 11px;
+    border-radius: 24px;
+    border: none;
+    width: 150px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+    
+
+
+ 
